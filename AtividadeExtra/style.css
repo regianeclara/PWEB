@@ -1,0 +1,63 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+}
+
+@media (min-width: 0px) and (max-width: 420px){
+    .principal{
+        background-color: gray;
+    }
+    .alterarCor::after{
+        content: "Cinza";
+    }
+}
+@media (min-width: 421px) and (max-width: 768px){
+    .principal{
+        background-color: orange;
+    }
+    .alterarCor::after{
+        content: "Laranja";
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .principal{
+        background-color: pink;
+    }
+    .alterarCor::after{
+        content: "Rosa";
+    }
+}
+@media (min-width: 1025px) and (max-width: 1080px){
+    .principal{
+        background-color: red;
+    }
+    .alterarCor::after{
+        content: "Vermelho";
+    }
+}
+@media (min-width: 1081px) and (max-width: 1366px){
+    .principal{
+        background-color: purple;
+    }
+    .alterarCor::after{
+        content: "Roxo";
+    }
+}
+@media (min-width: 1367px) and (max-width: 1920px){
+    .principal{
+        background-color: yellow;
+    }
+    .alterarCor::after{
+        content: "Amarelo";
+    }
+}
+
+@media (min-width: 1921px){
+    .principal{
+        background-color: black;
+    }
+    .alterarCor::after{
+        content: "Preto";
+    }
+}
