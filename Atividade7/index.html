@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Atividade 7 </title>
+</head>
+
+<body>
+    <img src="../img1.png" alt="pedra, papel, tesoura"> </img>
+    <button onclick="jogar()"> Vamos Jogar </button>
+    <script>
+
+        function jogar() {
+            var escolhaUsuario = prompt(" Escolha uma opção: Pedra, papel ou tesoura");
+            var escolhaPc = Math.floor(Math.random() * 3 + 1);
+
+            if (escolhaUsuario.toLowerCase() == "pedra") {
+                if (escolhaPc == 1) {
+                    alert("Você ganhou! Pedra quebra tesoura");
+                } else if (escolhaPc == 2) {
+                    alert("Você perdeu! Papel envolve a Pedra");
+                } else if (escolhaPc == 3) {
+                    alert("Empate");
+                }
+
+            }
+            else if (escolhaUsuario.toLowerCase() == "tesoura") {
+                if (escolhaPc == 1) {
+                    alert("Você perdeu! Pedra quebra tesoura");
+                } else if (escolhaPc == 2) {
+                    alert("Você ganhou! Tesoura corta papel");
+                } else if (escolhaPc == 3) {
+                    alert("Empate");
+                }
+            }
+
+            else if (escolhaUsuario.toLowerCase() == "papel") {
+                if (escolhaPc == 1) {
+                    alert("Você ganhou! Papel envolve pedra");
+                } else if (escolhaPc == 2) {
+                    alert("Você perdeu! Tesoura corta papel");
+                } else if (escolhaPc == 3) {
+                    alert("Empate");
+                }
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
