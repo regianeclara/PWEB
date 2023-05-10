@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+</head>
+
+<body>
+    <h1 id="janela"> Abra a Janela </h1>
+    <img src="janelafechada.png" id="Aberta" onmouseover="janelaAberta(this)" id="Quebrada" onclick="quebraJanela(this)"
+        id="Fechada" onmouseout="janelaFechada(this)" />
+
+
+    <script>
+        function janelaAberta(obj) {
+            obj.src = "janelaaberta.png"
+            document.getElementById("janela").innerHTML = "Janela Aberta";
+        }
+        function quebraJanela(obj) {
+            obj.src = "janelaquebra.png";
+            var janelaQuebrada = document.getElementById("janela");
+            janelaQuebrada.innerHTML = "Janela Quebrada";
+
+        }
+        function janelaFechada(obj) {
+            obj.src = "janelafechada.png";
+            document.getElementById("janela").innerHTML = " Janela Fechada"
+        }
+
+
+    </script>
+</body>
+
+</html>
