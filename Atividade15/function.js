@@ -13,11 +13,11 @@ function novaJanela() {
                 janela.document.write("<p>O tecnólogo em Análise e Desenvolvimento de Sistemas analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação</p>");
                 break;
 
-                case "Eletrônica Automotiva":
+            case "Eletrônica Automotiva":
                 janela.document.write("<p>O tecnólogo em Eletrônica Automotiva: participa de equipes de desenvolvimento de novos produtos, novas tecnologias e subsistemas na área automotiva;</p>");  
                 break;
 
-                case "Fabricação Mecânica":
+            case "Fabricação Mecânica":
                 janela.document.write("<p>O tecnólogo em Fabricação Mecânica atua no segmento de fabricação, envolvendo usinagem, conformação, soldagem, montagem e outros processos mecânicos.</p>");  
                 break;
 
@@ -29,7 +29,7 @@ function novaJanela() {
                 janela.document.write("<p>O Tecnólogo em Gestão da Qualidade será um profissional que planeja, implementa e audita sistemas de gestão da qualidade e produtividade.</p>");
                 break;
 
-                case "Logística":
+            case "Logística":
                 janela.document.write("<p>O tecnólogo em Logística é o profissional especializado em armazenagem, distribuição e transporte.</p>");
                 break;
 
@@ -37,17 +37,18 @@ function novaJanela() {
                 janela.document.write("<p>O aluno aprenderá a transformar ambientes de manufatura convencional em ambientes mais tecnológicos.</p>");
                 break;
 
-                case "Processos Metalúrgicos":
+            case "Processos Metalúrgicos":
                 janela.document.write("<p>O tecnólogo em Processos Metalúrgicos utiliza os fenômenos envolvidos em processos como: tratamentos térmicos, fundição, siderurgia, laminação, forjamento de metais, sinterização e tratamentos de superfície </p>");
                 break;
 
-                case "Polímeros":
+            case "Polímeros":
                     janela.document.write("<p>Esse profissional trabalha na fabricação dos Polímeros, compostos químicos utilizados na fabricação de produtos como o plástico, por exemplo. Avalia o desempenho de equipamentos e processos, interpreta fluxogramas de processos, aplica formulação química de polímeros, tintas e vernizes e desenvolve métodos de análises laboratoriais para caracterização dos materiais poliméricos, além de processos de modelagem. </p>");
                     break;
 
-                    case "Projetos Mecânicos":
+            case "Projetos Mecânicos":
                     janela.document.write("<p> O tecnólogo em Projetos Mecânicos está habilitado a realizar projetos, com detalhamento técnico de sistemas mecânicos que envolvam máquinas, motores, instalações mecânicas e termo-mecânicas. Tem conhecimento de todos os materiais usuais em construção mecânica e suas aplicações práticas. </p>");
                     break;
+                
             case "Sistemas Biomédicos":
                 janela.document.write("<p>O tecnólogo em Sistemas Biomédicos é responsável por planejar, gerenciar, implantar e manter equipamentos clínicos e médico-hospitalares. Supervisiona e coordena equipes de manutenção e otimização do uso de equipamentos eletro-médicos. </p>");
                 break;
