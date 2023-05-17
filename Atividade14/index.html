@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./function.js"></script>
     <title>Atividade 14</title>
-    
+
+
 </head>
+
 <body>
-    <form name="principal">
+    <form name="principal" onsubmit="validacao()">
         <h1 id="form">
             Formulário Principal
         </h1>
-        <br> <br> 
-        <labe> Nome: </labe>
-        <br> <br> 
-        <input type="text" id="name" name="name"
-         size="20" maxlength="40">
-         <br> <br> 
-         <label> Email: </label>
-         <br> <br> 
-         <input type="email" id="email" name="email"
-         size="20" maxlength="20">
-         <br> <br> 
-         <label> Comentário: </label>
-         <br> <br> 
-         <input type="text" id="comentario" name="comentario"
-         width="30" height="30">
-         <br> <br> <br>
-         <label> Pesquisa </label>
-         <br><br><br>
-        <label> Primeira vez nesta página? </label>
-        <br><br>
+        <br> <br>
+        <label> Nome: </label>
+        <br> <br>
+        <input type="text" id="nome" name="nome" size="20" minlength="10">
+        <br> <br>
+        <label> Email: </label>
+        <br> <br>
+        <input type="email" id="email" name="email" size="20" maxlength="20">
+        <br> <br>
+        <label> Comentário: </label>
+        <br> <br>
+        <textarea id="comentario" name="comentario" rows="10" cols="50"></textarea>
+        <br> <br>
+        <h2> Pesquisa </h2>
+        <br>
+        <h3> Primeira vez nesta página? </h3>
+        <br>
         <label> Sim </label>
-         <input type="radio" id="sim" name="sim"
-          value="1" onClick="tudoMaiusculo()">
-         <label> Não </label>
-          <input type="radio" id="nao"
-           name="nao" value="2"
-           onClick="tudoMinusculo()">
-           <br><br><br><br>
-        <button> Enviar </button>
-        <button> Limpar </button>
-    </form>
+        <input type="radio" id="pesquisa" name="pesquisa" value="sim">
+        <label> Não </label>
+        <input type="radio" id="pesquisa" name="pesquisa" value="nao">
+        <br><br><br><br>
+        <input type="submit" id="Enviar" value="Enviar">
+        <input type="reset" id="Limpar" value="Limpar">
+
 </body>
 
 
